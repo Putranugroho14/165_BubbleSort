@@ -50,3 +50,10 @@ void BubbleSortArray() {                                // Prosedur untuk mengur
 		}
 	}
 }
+int main()
+{
+	input();                    // Memanggil read()
+	BubbleSortArray();          // Memanggil BubbleSortArray()
+	display();                  // Memanggil display()
+	return 0;
+}
